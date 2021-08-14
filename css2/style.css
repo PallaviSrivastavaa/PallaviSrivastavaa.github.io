@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+
+
+}
+
+a{
+     color:black;
+     text-decoration: none;
+
+}
+.clr{
+    clear: both;
+
+}
+h1,h2,h3{
+    padding-bottom: 20px;
+}
+p{
+    margin: 10px 0;
+}
+.container{
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+#navbar{
+    background: black;
+    color: antiquewhite;
+    overflow: auto;
+}
+#navbar a{
+    color: bisque;
+    
+}
+#navbar .logo{
+    float: left;
+    padding-top: 20px;
+
+}
+#navbar ul{
+    list-style: none;
+    margin: 0;
+    float: right;
+}
+#navbar ul li{
+    float: left;
+
+}
+#navbar ul li a{
+    display: block;
+    padding: 20px;
+}
+#navbar ul li a:hover,
+#navbar ul li a.current
+{
+    background: #333;;
+    color: #d4733a;
+}
+/*showcase*/
+#showcase{
+    background: url('../imageedit_1_7815794328.png') no-repeat center center/cover;
+    height: 600px;
+    text-align: center;
+    padding-top: 170px;
+    font-size: 20px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     
+
+
+}
+.f{
+    color:  black;
+   margin: auto;
+   
+   max-width: 400px;
+   overflow:visible;
+   padding:0 20px;
+    
+}
+.lead{
+    color: black;
+    margin: auto;
+    
+    max-width: 500px;
+    overflow:visible;
+    
+    
+}
+.btn{
+    text-decoration: underline;
+    display: inline-block;
+    font-size: 18px;
+    color: bisque;
+    background: black;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+.btn:hover{
+    color: black;
+    background: bisque;
+}
+.btn-light{
+    background: bisque;
+    color: black;
+    text-align: center;
+    display: inline-blocks;
+    
+    
+}
+.btn-light:hover{
+    background: black;
+    color: bisque;
+    text-align: center;
+}
+/*home info*/
+#home-info{
+    height: 450px;
+
+}
+#home-info .info-img{
+    float:left;
+    width: 40%;
+    background: url('../owner2.jpg') no-repeat;
+    min-height: 100%;
+    
+
+}
+#home-info .info-content{
+    float: right;
+    width: 60%;
+    min-height: 100%;
+    text-align: center;
+    padding:50px 30px ;
+    overflow: hidden;
+}
+h2{
+    text-align: center;
+    color: #d4733a;
+}
+.bg-dark{
+    background: black;
+    color: white;
+    
+
+}
+.info-content p{
+    text-align: center;
+    color: white;
+}
+/* features section*/
+
+    
+.box {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    text-align: center;
+    color: #d4733a
+
+}
+.box i{
+  margin-bottom:10px ;
+    
+}
+/*about info*/
+#about-info .info-right{
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+#about-info .info-right img{
+    display: block;
+    margin-left: 20px;
+    width: 70%;
+  
+}
+#about-info .info-left{
+    float: left;
+    width: 50%;
+    min-height: 100%;
+    text-align: left;
+
+}
+.py-1{
+    padding: 10px 0;
+}
+.py-2{
+    padding: 20px 0;
+}
+.py-3{
+    padding: 30px 0;
+}
+/*testimonials*/
+#testimonials{
+    height: 100%;
+    background: url(../drawing\ room.jpg) no-repeat center center/cover;
+    padding-top: 100px;
+}
+#testimonials h2{
+    color:white;
+   
+    text-align: center;
+    padding-bottom: 40px;
+   
+    
+    
+}
+#testimonials .testimonial{
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    margin-top: 20px;
+    opacity: 0.9;
+
+
+}
+#testimonials .testimonial img{
+    width:100px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+    margin-top: 5px;
+
+
+}
+.l-heading{
+   font-size: 40px;
+   line-height: 1.2;
+}
+/*contact form*/
+#contact-form .form-group{
+    margin-bottom: 20px;
+    
+}
+#contact-form{
+    margin-left: 40px;
+}
+#contact-form label{
+    display: block;
+    margin-bottom: 5px;
+}
+#contact-form input,
+#contact-form textarea{
+    width:100%;
+    padding: 10px;
+    border: 1px bisque solid;
+}
+#contact-form textarea{
+    height: 200px;
+}
+#contact-form input:focus,
+#contact-form textarea:focus{
+    outline: none;
+    border-color: bisque;
+}
+
+/*footer*/
+#main-footer{
+    text-align: center;
+    background: bisque;
+    padding: 20px;
+
+}
